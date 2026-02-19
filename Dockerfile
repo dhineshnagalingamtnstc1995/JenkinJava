@@ -1,3 +1,3 @@
 FROM eclipse-temurin:17
-COPY terget/JenkinJava.jar JenkinJava.jar
+COPY target/JenkinJava.jar JenkinJava.jar
 CMD ["java","-jar","JenkinsJava.jar"]
